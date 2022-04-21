@@ -41,7 +41,7 @@ ExternalProject_Add(MAT-MINERvA
 
 ExternalProject_Add(UnfoldUtils
                     GIT_REPOSITORY git@github.com:MinervaExpt/UnfoldUtils.git
-                    GIT_TAG master
+                    GIT_TAG main
                     ${CVS_DOWNLOAD_COMMAND}
                     SOURCE_DIR "${SOURCE_CODE_DIR}/UnfoldUtils"
                     UPDATE_COMMAND ""
