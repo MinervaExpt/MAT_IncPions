@@ -9,6 +9,9 @@
 #include <cstdlib>
 typedef unsigned int uint;
 
+using namespace PlotUtils;
+using namespace std;
+
 class MinModDepCCQEXSec : public XSec
 {
 public:
